@@ -13,7 +13,7 @@ def main():
             question_4 = input('What is your address? ')
             question_5 = input('Whats is your phone number? ')
             logging.info('{}, {}, {}'.format(question_3, question_4, question_5))
-            print('\n{}, {}, {}'.format(question_3, question_4, question_5))
+            print('\nThe following information has been saved to the file:\n{}, {}, {}'.format(question_3, question_4, question_5))
         else:
             print("\nDirectory does not exist.")
             main()
